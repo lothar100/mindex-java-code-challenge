@@ -3,6 +3,7 @@ package com.mindex.challenge.service.impl;
 import com.mindex.challenge.dao.*;
 import com.mindex.challenge.data.*;
 import com.mindex.challenge.service.CompensationService;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
