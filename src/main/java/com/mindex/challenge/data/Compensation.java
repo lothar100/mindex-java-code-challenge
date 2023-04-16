@@ -1,7 +1,7 @@
 package com.mindex.challenge.data;
 
 import java.math.BigDecimal;
-import java.util.*;
+import java.util.Date;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
@@ -35,11 +35,7 @@ public class Compensation {
     }
 
     public void setEffectiveDate(Date effectiveDate) {
-
-        Calendar calendar = Calendar.getInstance(TimeZone.getTimeZone("UTC"));
-        calendar.setTime(effectiveDate);
-
-        this.effectiveDate = calendar.getTime();
+        this.effectiveDate = effectiveDate;
     }
 
 }
